@@ -1,0 +1,26 @@
+[2.615s] Invoking command in '/home/juli/teleop_ws/src/kyoto': PYTHONPATH=/home/juli/teleop_ws/build/kyoto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kyoto build --build-base /home/juli/teleop_ws/build/kyoto/build install --record /home/juli/teleop_ws/build/kyoto/install.log --single-version-externally-managed install_data
+[3.172s] running egg_info
+[3.174s] writing ../../build/kyoto/kyoto.egg-info/PKG-INFO
+[3.174s] writing dependency_links to ../../build/kyoto/kyoto.egg-info/dependency_links.txt
+[3.174s] writing entry points to ../../build/kyoto/kyoto.egg-info/entry_points.txt
+[3.175s] writing requirements to ../../build/kyoto/kyoto.egg-info/requires.txt
+[3.175s] writing top-level names to ../../build/kyoto/kyoto.egg-info/top_level.txt
+[3.178s] reading manifest file '../../build/kyoto/kyoto.egg-info/SOURCES.txt'
+[3.180s] writing manifest file '../../build/kyoto/kyoto.egg-info/SOURCES.txt'
+[3.181s] running build
+[3.181s] running build_py
+[3.183s] running install
+[3.184s] running install_lib
+[3.187s] running install_data
+[3.187s] running install_egg_info
+[3.193s] removing '/home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto-0.0.0-py3.10.egg-info' (and everything under it)
+[3.194s] Copying ../../build/kyoto/kyoto.egg-info to /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto-0.0.0-py3.10.egg-info
+[3.195s] running install_scripts
+[3.242s] Installing apriltag_detector script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.242s] Installing gui script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.242s] Installing guikeypwm script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.242s] Installing motor_control script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.242s] Installing plotter script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.243s] Installing velocity script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.243s] Installing xbox_control script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.243s] writing list of installed files to '/home/juli/teleop_ws/build/kyoto/install.log'

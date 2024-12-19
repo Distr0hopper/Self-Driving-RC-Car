@@ -1,0 +1,46 @@
+running egg_info
+creating ../../build/kimono/kimono.egg-info
+writing ../../build/kimono/kimono.egg-info/PKG-INFO
+writing dependency_links to ../../build/kimono/kimono.egg-info/dependency_links.txt
+writing entry points to ../../build/kimono/kimono.egg-info/entry_points.txt
+writing requirements to ../../build/kimono/kimono.egg-info/requires.txt
+writing top-level names to ../../build/kimono/kimono.egg-info/top_level.txt
+writing manifest file '../../build/kimono/kimono.egg-info/SOURCES.txt'
+reading manifest file '../../build/kimono/kimono.egg-info/SOURCES.txt'
+writing manifest file '../../build/kimono/kimono.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/juli/teleop_ws/build/kimono/build
+creating /home/juli/teleop_ws/build/kimono/build/lib
+creating /home/juli/teleop_ws/build/kimono/build/lib/kimono
+copying kimono/__init__.py -> /home/juli/teleop_ws/build/kimono/build/lib/kimono
+copying kimono/gui.py -> /home/juli/teleop_ws/build/kimono/build/lib/kimono
+copying kimono/motor_control.py -> /home/juli/teleop_ws/build/kimono/build/lib/kimono
+copying kimono/xbox_control.py -> /home/juli/teleop_ws/build/kimono/build/lib/kimono
+running install
+running install_lib
+creating /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono
+copying /home/juli/teleop_ws/build/kimono/build/lib/kimono/__init__.py -> /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono
+copying /home/juli/teleop_ws/build/kimono/build/lib/kimono/gui.py -> /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono
+copying /home/juli/teleop_ws/build/kimono/build/lib/kimono/motor_control.py -> /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono
+copying /home/juli/teleop_ws/build/kimono/build/lib/kimono/xbox_control.py -> /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono
+byte-compiling /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono/gui.py to gui.cpython-310.pyc
+byte-compiling /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono/motor_control.py to motor_control.cpython-310.pyc
+byte-compiling /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono/xbox_control.py to xbox_control.cpython-310.pyc
+running install_data
+creating /home/juli/teleop_ws/install/kimono/share/ament_index
+creating /home/juli/teleop_ws/install/kimono/share/ament_index/resource_index
+creating /home/juli/teleop_ws/install/kimono/share/ament_index/resource_index/packages
+copying resource/kimono -> /home/juli/teleop_ws/install/kimono/share/ament_index/resource_index/packages
+copying package.xml -> /home/juli/teleop_ws/install/kimono/share/kimono
+creating /home/juli/teleop_ws/install/kimono/share/kimono/launch
+copying launch/test_control.launch.py -> /home/juli/teleop_ws/install/kimono/share/kimono/launch
+creating /home/juli/teleop_ws/install/kimono/share/kimono/msg
+running install_egg_info
+Copying ../../build/kimono/kimono.egg-info to /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gui script to /home/juli/teleop_ws/install/kimono/lib/kimono
+Installing motor_control script to /home/juli/teleop_ws/install/kimono/lib/kimono
+Installing xbox_control script to /home/juli/teleop_ws/install/kimono/lib/kimono
+writing list of installed files to '/home/juli/teleop_ws/build/kimono/install.log'

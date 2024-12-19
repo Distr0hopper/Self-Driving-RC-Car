@@ -1,0 +1,41 @@
+[1.797s] Invoking command in '/home/juli/teleop_ws/build/ros_tcp_endpoint': /usr/bin/cmake /home/juli/teleop_ws/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/juli/teleop_ws/install/ros_tcp_endpoint
+[1.830s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.830s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[1.830s]   CMake.
+[1.831s] 
+[1.831s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.831s]   CMake that the project does not need compatibility with older versions.
+[1.831s] 
+[1.832s] [0m
+[2.016s] -- The C compiler identification is GNU 11.4.0
+[2.185s] -- The CXX compiler identification is GNU 11.4.0
+[2.217s] -- Detecting C compiler ABI info
+[2.384s] -- Detecting C compiler ABI info - done
+[2.405s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.416s] -- Detecting C compile features
+[2.418s] -- Detecting C compile features - done
+[2.427s] -- Detecting CXX compiler ABI info
+[2.603s] -- Detecting CXX compiler ABI info - done
+[2.624s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.624s] -- Detecting CXX compile features
+[2.626s] -- Detecting CXX compile features - done
+[2.653s] -- Configuring incomplete, errors occurred!
+[2.654s] See also "/home/juli/teleop_ws/build/ros_tcp_endpoint/CMakeFiles/CMakeOutput.log".
+[2.654s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[2.654s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.654s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.654s]   CMake did not find one.
+[2.655s] 
+[2.655s]   Could not find a package configuration file provided by "catkin" with any
+[2.655s]   of the following names:
+[2.655s] 
+[2.655s]     catkinConfig.cmake
+[2.656s]     catkin-config.cmake
+[2.656s] 
+[2.656s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.656s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.656s]   provides a separate development package or SDK, be sure it has been
+[2.657s]   installed.
+[2.657s] 
+[2.657s] [0m
+[2.661s] Invoked command in '/home/juli/teleop_ws/build/ros_tcp_endpoint' returned '1': /usr/bin/cmake /home/juli/teleop_ws/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/juli/teleop_ws/install/ros_tcp_endpoint

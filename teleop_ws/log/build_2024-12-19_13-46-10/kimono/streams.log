@@ -1,0 +1,48 @@
+[2.544s] Invoking command in '/home/juli/teleop_ws/src/kimono': PYTHONPATH=/home/juli/teleop_ws/build/kimono/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kimono build --build-base /home/juli/teleop_ws/build/kimono/build install --record /home/juli/teleop_ws/build/kimono/install.log --single-version-externally-managed install_data
+[3.112s] running egg_info
+[3.119s] creating ../../build/kimono/kimono.egg-info
+[3.120s] writing ../../build/kimono/kimono.egg-info/PKG-INFO
+[3.120s] writing dependency_links to ../../build/kimono/kimono.egg-info/dependency_links.txt
+[3.121s] writing entry points to ../../build/kimono/kimono.egg-info/entry_points.txt
+[3.121s] writing requirements to ../../build/kimono/kimono.egg-info/requires.txt
+[3.121s] writing top-level names to ../../build/kimono/kimono.egg-info/top_level.txt
+[3.122s] writing manifest file '../../build/kimono/kimono.egg-info/SOURCES.txt'
+[3.125s] reading manifest file '../../build/kimono/kimono.egg-info/SOURCES.txt'
+[3.126s] writing manifest file '../../build/kimono/kimono.egg-info/SOURCES.txt'
+[3.126s] running build
+[3.126s] running build_py
+[3.126s] creating /home/juli/teleop_ws/build/kimono/build
+[3.126s] creating /home/juli/teleop_ws/build/kimono/build/lib
+[3.126s] creating /home/juli/teleop_ws/build/kimono/build/lib/kimono
+[3.126s] copying kimono/__init__.py -> /home/juli/teleop_ws/build/kimono/build/lib/kimono
+[3.126s] copying kimono/gui.py -> /home/juli/teleop_ws/build/kimono/build/lib/kimono
+[3.126s] copying kimono/motor_control.py -> /home/juli/teleop_ws/build/kimono/build/lib/kimono
+[3.127s] copying kimono/xbox_control.py -> /home/juli/teleop_ws/build/kimono/build/lib/kimono
+[3.127s] running install
+[3.127s] running install_lib
+[3.127s] creating /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono
+[3.127s] copying /home/juli/teleop_ws/build/kimono/build/lib/kimono/__init__.py -> /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono
+[3.128s] copying /home/juli/teleop_ws/build/kimono/build/lib/kimono/gui.py -> /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono
+[3.128s] copying /home/juli/teleop_ws/build/kimono/build/lib/kimono/motor_control.py -> /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono
+[3.128s] copying /home/juli/teleop_ws/build/kimono/build/lib/kimono/xbox_control.py -> /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono
+[3.128s] byte-compiling /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono/__init__.py to __init__.cpython-310.pyc
+[3.129s] byte-compiling /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono/gui.py to gui.cpython-310.pyc
+[3.132s] byte-compiling /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono/motor_control.py to motor_control.cpython-310.pyc
+[3.134s] byte-compiling /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono/xbox_control.py to xbox_control.cpython-310.pyc
+[3.137s] running install_data
+[3.137s] creating /home/juli/teleop_ws/install/kimono/share/ament_index
+[3.137s] creating /home/juli/teleop_ws/install/kimono/share/ament_index/resource_index
+[3.138s] creating /home/juli/teleop_ws/install/kimono/share/ament_index/resource_index/packages
+[3.138s] copying resource/kimono -> /home/juli/teleop_ws/install/kimono/share/ament_index/resource_index/packages
+[3.138s] copying package.xml -> /home/juli/teleop_ws/install/kimono/share/kimono
+[3.138s] creating /home/juli/teleop_ws/install/kimono/share/kimono/launch
+[3.138s] copying launch/test_control.launch.py -> /home/juli/teleop_ws/install/kimono/share/kimono/launch
+[3.138s] creating /home/juli/teleop_ws/install/kimono/share/kimono/msg
+[3.139s] running install_egg_info
+[3.144s] Copying ../../build/kimono/kimono.egg-info to /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono-0.0.0-py3.10.egg-info
+[3.146s] running install_scripts
+[3.192s] Installing gui script to /home/juli/teleop_ws/install/kimono/lib/kimono
+[3.192s] Installing motor_control script to /home/juli/teleop_ws/install/kimono/lib/kimono
+[3.193s] Installing xbox_control script to /home/juli/teleop_ws/install/kimono/lib/kimono
+[3.193s] writing list of installed files to '/home/juli/teleop_ws/build/kimono/install.log'
+[3.241s] Invoked command in '/home/juli/teleop_ws/src/kimono' returned '0': PYTHONPATH=/home/juli/teleop_ws/build/kimono/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kimono build --build-base /home/juli/teleop_ws/build/kimono/build install --record /home/juli/teleop_ws/build/kimono/install.log --single-version-externally-managed install_data

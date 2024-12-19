@@ -1,0 +1,6 @@
+source;share/kimono/hook/pythonpath.ps1
+source;share/kimono/hook/pythonpath.dsv
+source;share/kimono/hook/pythonpath.sh
+source;share/kimono/hook/ament_prefix_path.ps1
+source;share/kimono/hook/ament_prefix_path.dsv
+source;share/kimono/hook/ament_prefix_path.sh

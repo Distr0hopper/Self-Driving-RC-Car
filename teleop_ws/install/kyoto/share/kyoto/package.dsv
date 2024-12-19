@@ -1,0 +1,6 @@
+source;share/kyoto/hook/pythonpath.ps1
+source;share/kyoto/hook/pythonpath.dsv
+source;share/kyoto/hook/pythonpath.sh
+source;share/kyoto/hook/ament_prefix_path.ps1
+source;share/kyoto/hook/ament_prefix_path.dsv
+source;share/kyoto/hook/ament_prefix_path.sh

@@ -1,0 +1,6 @@
+source;share/katana/hook/pythonpath.ps1
+source;share/katana/hook/pythonpath.dsv
+source;share/katana/hook/pythonpath.sh
+source;share/katana/hook/ament_prefix_path.ps1
+source;share/katana/hook/ament_prefix_path.dsv
+source;share/katana/hook/ament_prefix_path.sh

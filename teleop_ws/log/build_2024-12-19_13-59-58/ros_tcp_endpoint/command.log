@@ -1,0 +1,2 @@
+Invoking command in '/home/juli/teleop_ws/build/ros_tcp_endpoint': /usr/bin/cmake /home/juli/teleop_ws/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/juli/teleop_ws/install/ros_tcp_endpoint
+Invoked command in '/home/juli/teleop_ws/build/ros_tcp_endpoint' returned '1': /usr/bin/cmake /home/juli/teleop_ws/src/ROS-TCP-Endpoint -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/juli/teleop_ws/install/ros_tcp_endpoint

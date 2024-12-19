@@ -1,0 +1,30 @@
+[3.022s] Invoking command in '/home/juli/teleop_ws/src/katana': PYTHONPATH=/home/juli/teleop_ws/build/katana/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/katana/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/katana build --build-base /home/juli/teleop_ws/build/katana/build install --record /home/juli/teleop_ws/build/katana/install.log --single-version-externally-managed install_data
+[3.247s] running egg_info
+[3.249s] writing ../../build/katana/katana.egg-info/PKG-INFO
+[3.249s] writing dependency_links to ../../build/katana/katana.egg-info/dependency_links.txt
+[3.249s] writing entry points to ../../build/katana/katana.egg-info/entry_points.txt
+[3.250s] writing requirements to ../../build/katana/katana.egg-info/requires.txt
+[3.250s] writing top-level names to ../../build/katana/katana.egg-info/top_level.txt
+[3.252s] reading manifest file '../../build/katana/katana.egg-info/SOURCES.txt'
+[3.253s] writing manifest file '../../build/katana/katana.egg-info/SOURCES.txt'
+[3.253s] running build
+[3.253s] running build_py
+[3.254s] running install
+[3.254s] running install_lib
+[3.256s] running install_data
+[3.256s] running install_egg_info
+[3.259s] removing '/home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana-0.0.0-py3.10.egg-info' (and everything under it)
+[3.260s] Copying ../../build/katana/katana.egg-info to /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana-0.0.0-py3.10.egg-info
+[3.260s] running install_scripts
+[3.288s] Installing apriltag_detector script to /home/juli/teleop_ws/install/katana/lib/katana
+[3.288s] Installing commands script to /home/juli/teleop_ws/install/katana/lib/katana
+[3.288s] Installing docking script to /home/juli/teleop_ws/install/katana/lib/katana
+[3.288s] Installing gui script to /home/juli/teleop_ws/install/katana/lib/katana
+[3.289s] Installing guikeypwm script to /home/juli/teleop_ws/install/katana/lib/katana
+[3.289s] Installing motor_control script to /home/juli/teleop_ws/install/katana/lib/katana
+[3.289s] Installing plotter script to /home/juli/teleop_ws/install/katana/lib/katana
+[3.289s] Installing return script to /home/juli/teleop_ws/install/katana/lib/katana
+[3.289s] Installing velocity script to /home/juli/teleop_ws/install/katana/lib/katana
+[3.289s] Installing xbox_control script to /home/juli/teleop_ws/install/katana/lib/katana
+[3.289s] writing list of installed files to '/home/juli/teleop_ws/build/katana/install.log'
+[3.356s] Invoked command in '/home/juli/teleop_ws/src/katana' returned '0': PYTHONPATH=/home/juli/teleop_ws/build/katana/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/katana/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/katana build --build-base /home/juli/teleop_ws/build/katana/build install --record /home/juli/teleop_ws/build/katana/install.log --single-version-externally-managed install_data

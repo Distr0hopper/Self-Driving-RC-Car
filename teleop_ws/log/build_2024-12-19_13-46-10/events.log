@@ -1,0 +1,252 @@
+[0.000000] (-) TimerEvent: {}
+[0.000904] (katana) JobQueued: {'identifier': 'katana', 'dependencies': OrderedDict()}
+[0.000973] (kimono) JobQueued: {'identifier': 'kimono', 'dependencies': OrderedDict()}
+[0.001012] (kyoto) JobQueued: {'identifier': 'kyoto', 'dependencies': OrderedDict()}
+[0.001047] (katana) JobStarted: {'identifier': 'katana'}
+[0.020762] (kimono) JobStarted: {'identifier': 'kimono'}
+[0.031163] (kyoto) JobStarted: {'identifier': 'kyoto'}
+[0.099545] (-) TimerEvent: {}
+[0.200020] (-) TimerEvent: {}
+[0.300518] (-) TimerEvent: {}
+[0.401001] (-) TimerEvent: {}
+[0.501465] (-) TimerEvent: {}
+[0.601919] (-) TimerEvent: {}
+[0.702383] (-) TimerEvent: {}
+[0.802825] (-) TimerEvent: {}
+[0.903344] (-) TimerEvent: {}
+[1.003866] (-) TimerEvent: {}
+[1.104323] (-) TimerEvent: {}
+[1.204799] (-) TimerEvent: {}
+[1.305196] (-) TimerEvent: {}
+[1.405652] (-) TimerEvent: {}
+[1.506159] (-) TimerEvent: {}
+[1.606601] (-) TimerEvent: {}
+[1.707055] (-) TimerEvent: {}
+[1.807477] (-) TimerEvent: {}
+[1.907898] (-) TimerEvent: {}
+[2.008332] (-) TimerEvent: {}
+[2.108793] (-) TimerEvent: {}
+[2.209248] (-) TimerEvent: {}
+[2.309825] (-) TimerEvent: {}
+[2.410259] (-) TimerEvent: {}
+[2.510737] (-) TimerEvent: {}
+[2.550811] (katana) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/katana', 'build', '--build-base', '/home/juli/teleop_ws/build/katana/build', 'install', '--record', '/home/juli/teleop_ws/build/katana/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/juli/teleop_ws/src/katana', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'juli', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/juli/katana_ws/install/slam_gmapping/lib:/home/juli/katana_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/juli', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2040', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7e8c66c6efaa96b2097ad3626763ed16', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/juli/katana_ws/install:/home/juli/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'juli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/juli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/juli/.dotnet/tools:/home/juli/.local/share/JetBrains/Toolbox/scripts:/opt/nvim-linux64/bin', 'SESSION_MANAGER': 'local/Juli-T14:@/tmp/.ICE-unix/2040,unix/Juli-T14:/tmp/.ICE-unix/2040', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/074b8a28_c688_4892_84f0_dac36c9605e3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/juli/.cache/dotnet_bundle_extract', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.673', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/juli/katana_ws/install/slam_gmapping:/home/juli/katana_ws/install/ros_tcp_endpoint:/home/juli/katana_ws/install/remote_control:/home/juli/katana_ws/install/openslam_gmapping:/home/juli/katana_ws/install/gui:/home/juli/katana_ws/install/followTheWall:/home/juli/ros2_ws/install/py_rwht:/home/juli/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/juli/teleop_ws/build/katana', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7e8c66c6efaa96b2097ad3626763ed16', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/juli/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juli/teleop_ws/build/katana/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/katana/lib/python3.10/site-packages:/home/juli/katana_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/juli/katana_ws/install/remote_control/lib/python3.10/site-packages:/home/juli/katana_ws/install/gui/lib/python3.10/site-packages:/home/juli/katana_ws/install/followTheWall/lib/python3.10/site-packages:/home/juli/ros2_ws/install/py_rwht/lib/python3.10/site-packages:/home/juli/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/juli/katana_ws/install/slam_gmapping:/home/juli/katana_ws/install/openslam_gmapping'}, 'shell': False}
+[2.560438] (kimono) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/kimono', 'build', '--build-base', '/home/juli/teleop_ws/build/kimono/build', 'install', '--record', '/home/juli/teleop_ws/build/kimono/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/juli/teleop_ws/src/kimono', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'juli', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/juli/katana_ws/install/slam_gmapping/lib:/home/juli/katana_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/juli', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2040', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7e8c66c6efaa96b2097ad3626763ed16', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/juli/katana_ws/install:/home/juli/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'juli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/juli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/juli/.dotnet/tools:/home/juli/.local/share/JetBrains/Toolbox/scripts:/opt/nvim-linux64/bin', 'SESSION_MANAGER': 'local/Juli-T14:@/tmp/.ICE-unix/2040,unix/Juli-T14:/tmp/.ICE-unix/2040', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/074b8a28_c688_4892_84f0_dac36c9605e3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/juli/.cache/dotnet_bundle_extract', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.673', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/juli/katana_ws/install/slam_gmapping:/home/juli/katana_ws/install/ros_tcp_endpoint:/home/juli/katana_ws/install/remote_control:/home/juli/katana_ws/install/openslam_gmapping:/home/juli/katana_ws/install/gui:/home/juli/katana_ws/install/followTheWall:/home/juli/ros2_ws/install/py_rwht:/home/juli/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/juli/teleop_ws/build/kimono', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7e8c66c6efaa96b2097ad3626763ed16', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/juli/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juli/teleop_ws/build/kimono/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages:/home/juli/katana_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/juli/katana_ws/install/remote_control/lib/python3.10/site-packages:/home/juli/katana_ws/install/gui/lib/python3.10/site-packages:/home/juli/katana_ws/install/followTheWall/lib/python3.10/site-packages:/home/juli/ros2_ws/install/py_rwht/lib/python3.10/site-packages:/home/juli/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/juli/katana_ws/install/slam_gmapping:/home/juli/katana_ws/install/openslam_gmapping'}, 'shell': False}
+[2.565351] (kyoto) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/kyoto', 'build', '--build-base', '/home/juli/teleop_ws/build/kyoto/build', 'install', '--record', '/home/juli/teleop_ws/build/kyoto/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/juli/teleop_ws/src/kyoto', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'juli', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/juli/katana_ws/install/slam_gmapping/lib:/home/juli/katana_ws/install/openslam_gmapping/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/juli', 'DESKTOP_SESSION': 'ubuntu-xorg', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge:appmenu-gtk-module', 'LC_MONETARY': 'de_DE.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '2040', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7e8c66c6efaa96b2097ad3626763ed16', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/juli/katana_ws/install:/home/juli/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'juli', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juli', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/juli/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/juli/.dotnet/tools:/home/juli/.local/share/JetBrains/Toolbox/scripts:/opt/nvim-linux64/bin', 'SESSION_MANAGER': 'local/Juli-T14:@/tmp/.ICE-unix/2040,unix/Juli-T14:/tmp/.ICE-unix/2040', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/074b8a28_c688_4892_84f0_dac36c9605e3', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'DOTNET_BUNDLE_EXTRACT_BASE_DIR': '/home/juli/.cache/dotnet_bundle_extract', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.673', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/juli/katana_ws/install/slam_gmapping:/home/juli/katana_ws/install/ros_tcp_endpoint:/home/juli/katana_ws/install/remote_control:/home/juli/katana_ws/install/openslam_gmapping:/home/juli/katana_ws/install/gui:/home/juli/katana_ws/install/followTheWall:/home/juli/ros2_ws/install/py_rwht:/home/juli/ros2_ws/install/my_package:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/juli/teleop_ws/build/kyoto', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=7e8c66c6efaa96b2097ad3626763ed16', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/home/juli/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/juli/teleop_ws/build/kyoto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages:/home/juli/katana_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:/home/juli/katana_ws/install/remote_control/lib/python3.10/site-packages:/home/juli/katana_ws/install/gui/lib/python3.10/site-packages:/home/juli/katana_ws/install/followTheWall/lib/python3.10/site-packages:/home/juli/ros2_ws/install/py_rwht/lib/python3.10/site-packages:/home/juli/ros2_ws/install/my_package/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/juli/katana_ws/install/slam_gmapping:/home/juli/katana_ws/install/openslam_gmapping'}, 'shell': False}
+[2.610832] (-) TimerEvent: {}
+[2.711293] (-) TimerEvent: {}
+[2.811800] (-) TimerEvent: {}
+[2.912273] (-) TimerEvent: {}
+[3.012812] (-) TimerEvent: {}
+[3.104966] (katana) StdoutLine: {'line': b'running egg_info\n'}
+[3.106145] (katana) StdoutLine: {'line': b'creating ../../build/katana/katana.egg-info\n'}
+[3.115235] (-) TimerEvent: {}
+[3.115668] (katana) StdoutLine: {'line': b'writing ../../build/katana/katana.egg-info/PKG-INFO\n'}
+[3.116081] (katana) StdoutLine: {'line': b'writing dependency_links to ../../build/katana/katana.egg-info/dependency_links.txt\n'}
+[3.116409] (katana) StdoutLine: {'line': b'writing entry points to ../../build/katana/katana.egg-info/entry_points.txt\n'}
+[3.116668] (katana) StdoutLine: {'line': b'writing requirements to ../../build/katana/katana.egg-info/requires.txt\n'}
+[3.116959] (katana) StdoutLine: {'line': b'writing top-level names to ../../build/katana/katana.egg-info/top_level.txt\n'}
+[3.117230] (katana) StdoutLine: {'line': b"writing manifest file '../../build/katana/katana.egg-info/SOURCES.txt'\n"}
+[3.121122] (katana) StdoutLine: {'line': b"reading manifest file '../../build/katana/katana.egg-info/SOURCES.txt'\n"}
+[3.121818] (kyoto) StdoutLine: {'line': b'running egg_info\n'}
+[3.122759] (katana) StdoutLine: {'line': b"writing manifest file '../../build/katana/katana.egg-info/SOURCES.txt'\n"}
+[3.123294] (katana) StdoutLine: {'line': b'running build\n'}
+[3.123553] (katana) StdoutLine: {'line': b'running build_py\n'}
+[3.123812] (kyoto) StdoutLine: {'line': b'creating ../../build/kyoto/kyoto.egg-info\n'}
+[3.124125] (kyoto) StdoutLine: {'line': b'writing ../../build/kyoto/kyoto.egg-info/PKG-INFO\n'}
+[3.124337] (kyoto) StdoutLine: {'line': b'writing dependency_links to ../../build/kyoto/kyoto.egg-info/dependency_links.txt\n'}
+[3.124664] (kyoto) StdoutLine: {'line': b'writing entry points to ../../build/kyoto/kyoto.egg-info/entry_points.txt\n'}
+[3.125056] (kyoto) StdoutLine: {'line': b'writing requirements to ../../build/kyoto/kyoto.egg-info/requires.txt\n'}
+[3.125300] (kyoto) StdoutLine: {'line': b'writing top-level names to ../../build/kyoto/kyoto.egg-info/top_level.txt\n'}
+[3.125523] (kyoto) StdoutLine: {'line': b"writing manifest file '../../build/kyoto/kyoto.egg-info/SOURCES.txt'\n"}
+[3.125854] (katana) StdoutLine: {'line': b'creating /home/juli/teleop_ws/build/katana/build\n'}
+[3.126271] (katana) StdoutLine: {'line': b'creating /home/juli/teleop_ws/build/katana/build/lib\n'}
+[3.126475] (katana) StdoutLine: {'line': b'creating /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.126687] (katana) StdoutLine: {'line': b'copying katana/velocity.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.126929] (katana) StdoutLine: {'line': b'copying katana/__init__.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.127248] (katana) StdoutLine: {'line': b'copying katana/commands.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.127461] (katana) StdoutLine: {'line': b'copying katana/motor_control_backup2.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.127676] (katana) StdoutLine: {'line': b'copying katana/motor_control_workingbackup.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.127998] (katana) StdoutLine: {'line': b'copying katana/gui.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.128226] (katana) StdoutLine: {'line': b'copying katana/plotter.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.128435] (katana) StdoutLine: {'line': b'copying katana/motor_control.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.128644] (katana) StdoutLine: {'line': b'copying katana/docking.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.128882] (katana) StdoutLine: {'line': b'copying katana/xbox_control.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.129103] (katana) StdoutLine: {'line': b'copying katana/apriltag_detector.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.129322] (katana) StdoutLine: {'line': b'copying katana/gui_backup.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.129541] (katana) StdoutLine: {'line': b'copying katana/xbox_control_backup.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.129762] (katana) StdoutLine: {'line': b'copying katana/return.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.129987] (katana) StdoutLine: {'line': b'copying katana/gui_key_pwm.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.130194] (katana) StdoutLine: {'line': b'copying katana/test.py -> /home/juli/teleop_ws/build/katana/build/lib/katana\n'}
+[3.130405] (katana) StdoutLine: {'line': b'running install\n'}
+[3.130803] (katana) StdoutLine: {'line': b'running install_lib\n'}
+[3.131480] (katana) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.131741] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/velocity.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.132172] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/__init__.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.132452] (kimono) StdoutLine: {'line': b'running egg_info\n'}
+[3.133063] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/commands.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.133443] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/motor_control_backup2.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.133667] (kyoto) StdoutLine: {'line': b"reading manifest file '../../build/kyoto/kyoto.egg-info/SOURCES.txt'\n"}
+[3.133991] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/motor_control_workingbackup.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.134308] (kyoto) StdoutLine: {'line': b"writing manifest file '../../build/kyoto/kyoto.egg-info/SOURCES.txt'\n"}
+[3.134627] (kyoto) StdoutLine: {'line': b'running build\n'}
+[3.134989] (kyoto) StdoutLine: {'line': b'running build_py\n'}
+[3.135193] (kyoto) StdoutLine: {'line': b'creating /home/juli/teleop_ws/build/kyoto/build\n'}
+[3.135393] (kyoto) StdoutLine: {'line': b'creating /home/juli/teleop_ws/build/kyoto/build/lib\n'}
+[3.135613] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/gui.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.135972] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/plotter.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.136208] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/motor_control.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.136426] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/docking.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.136640] (kyoto) StdoutLine: {'line': b'creating /home/juli/teleop_ws/build/kyoto/build/lib/kyoto\n'}
+[3.136879] (kyoto) StdoutLine: {'line': b'copying kyoto/velocity.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto\n'}
+[3.137077] (kyoto) StdoutLine: {'line': b'copying kyoto/__init__.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto\n'}
+[3.137405] (kyoto) StdoutLine: {'line': b'copying kyoto/motor_control_backup2.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto\n'}
+[3.137619] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/xbox_control.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.138014] (kyoto) StdoutLine: {'line': b'copying kyoto/motor_control_workingbackup.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto\n'}
+[3.138312] (kyoto) StdoutLine: {'line': b'copying kyoto/gui.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto\n'}
+[3.138521] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/apriltag_detector.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.138759] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/gui_backup.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.138995] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/xbox_control_backup.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.139435] (kyoto) StdoutLine: {'line': b'copying kyoto/plotter.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto\n'}
+[3.139661] (kimono) StdoutLine: {'line': b'creating ../../build/kimono/kimono.egg-info\n'}
+[3.140039] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/return.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.140212] (kyoto) StdoutLine: {'line': b'copying kyoto/motor_control.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto\n'}
+[3.140363] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/gui_key_pwm.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.140504] (katana) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/katana/build/lib/katana/test.py -> /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana\n'}
+[3.140651] (kyoto) StdoutLine: {'line': b'copying kyoto/xbox_control.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto\n'}
+[3.140812] (kimono) StdoutLine: {'line': b'writing ../../build/kimono/kimono.egg-info/PKG-INFO\n'}
+[3.140958] (kimono) StdoutLine: {'line': b'writing dependency_links to ../../build/kimono/kimono.egg-info/dependency_links.txt\n'}
+[3.141098] (kyoto) StdoutLine: {'line': b'copying kyoto/apriltag_detector.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto\n'}
+[3.141235] (kyoto) StdoutLine: {'line': b'copying kyoto/gui_key_pwm.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto\n'}
+[3.141368] (kyoto) StdoutLine: {'line': b'copying kyoto/test.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto\n'}
+[3.141505] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/velocity.py to velocity.cpython-310.pyc\n'}
+[3.141646] (kyoto) StdoutLine: {'line': b'running install\n'}
+[3.141807] (kimono) StdoutLine: {'line': b'writing entry points to ../../build/kimono/kimono.egg-info/entry_points.txt\n'}
+[3.141961] (kimono) StdoutLine: {'line': b'writing requirements to ../../build/kimono/kimono.egg-info/requires.txt\n'}
+[3.142123] (kimono) StdoutLine: {'line': b'writing top-level names to ../../build/kimono/kimono.egg-info/top_level.txt\n'}
+[3.142298] (kyoto) StdoutLine: {'line': b'running install_lib\n'}
+[3.142493] (kimono) StdoutLine: {'line': b"writing manifest file '../../build/kimono/kimono.egg-info/SOURCES.txt'\n"}
+[3.142696] (kyoto) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto\n'}
+[3.142920] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/__init__.py to __init__.cpython-310.pyc\n'}
+[3.143073] (kyoto) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/velocity.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto\n'}
+[3.143225] (kyoto) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/__init__.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto\n'}
+[3.143396] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/commands.py to commands.cpython-310.pyc\n'}
+[3.143538] (kyoto) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/motor_control_backup2.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto\n'}
+[3.143702] (kyoto) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/motor_control_workingbackup.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto\n'}
+[3.143966] (kyoto) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/gui.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto\n'}
+[3.144105] (kyoto) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/plotter.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto\n'}
+[3.144249] (kyoto) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/motor_control.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto\n'}
+[3.144437] (kyoto) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/xbox_control.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto\n'}
+[3.144621] (kyoto) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/apriltag_detector.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto\n'}
+[3.144976] (kyoto) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/gui_key_pwm.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto\n'}
+[3.145362] (kyoto) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/test.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto\n'}
+[3.145489] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/motor_control_backup2.py to motor_control_backup2.cpython-310.pyc\n'}
+[3.145613] (kyoto) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/velocity.py to velocity.cpython-310.pyc\n'}
+[3.145749] (kyoto) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/__init__.py to __init__.cpython-310.pyc\n'}
+[3.145895] (kyoto) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/motor_control_backup2.py to motor_control_backup2.cpython-310.pyc\n'}
+[3.146029] (kimono) StdoutLine: {'line': b"reading manifest file '../../build/kimono/kimono.egg-info/SOURCES.txt'\n"}
+[3.146153] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/motor_control_workingbackup.py to motor_control_workingbackup.cpython-310.pyc\n'}
+[3.146269] (kimono) StdoutLine: {'line': b"writing manifest file '../../build/kimono/kimono.egg-info/SOURCES.txt'\n"}
+[3.146381] (kimono) StdoutLine: {'line': b'running build\n'}
+[3.146490] (kimono) StdoutLine: {'line': b'running build_py\n'}
+[3.146601] (kimono) StdoutLine: {'line': b'creating /home/juli/teleop_ws/build/kimono/build\n'}
+[3.146725] (kimono) StdoutLine: {'line': b'creating /home/juli/teleop_ws/build/kimono/build/lib\n'}
+[3.146862] (kimono) StdoutLine: {'line': b'creating /home/juli/teleop_ws/build/kimono/build/lib/kimono\n'}
+[3.146981] (kimono) StdoutLine: {'line': b'copying kimono/__init__.py -> /home/juli/teleop_ws/build/kimono/build/lib/kimono\n'}
+[3.147100] (kimono) StdoutLine: {'line': b'copying kimono/gui.py -> /home/juli/teleop_ws/build/kimono/build/lib/kimono\n'}
+[3.147214] (kimono) StdoutLine: {'line': b'copying kimono/motor_control.py -> /home/juli/teleop_ws/build/kimono/build/lib/kimono\n'}
+[3.147330] (kimono) StdoutLine: {'line': b'copying kimono/xbox_control.py -> /home/juli/teleop_ws/build/kimono/build/lib/kimono\n'}
+[3.147455] (kimono) StdoutLine: {'line': b'running install\n'}
+[3.147580] (kimono) StdoutLine: {'line': b'running install_lib\n'}
+[3.147825] (kimono) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono\n'}
+[3.148129] (kimono) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kimono/build/lib/kimono/__init__.py -> /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono\n'}
+[3.148256] (kimono) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kimono/build/lib/kimono/gui.py -> /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono\n'}
+[3.148370] (kimono) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kimono/build/lib/kimono/motor_control.py -> /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono\n'}
+[3.148479] (kimono) StdoutLine: {'line': b'copying /home/juli/teleop_ws/build/kimono/build/lib/kimono/xbox_control.py -> /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono\n'}
+[3.148660] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/gui.py to gui.cpython-310.pyc\n'}
+[3.148804] (kyoto) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/motor_control_workingbackup.py to motor_control_workingbackup.cpython-310.pyc\n'}
+[3.149011] (kimono) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono/__init__.py to __init__.cpython-310.pyc\n'}
+[3.149421] (kimono) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono/gui.py to gui.cpython-310.pyc\n'}
+[3.151880] (kyoto) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/gui.py to gui.cpython-310.pyc\n'}
+[3.152224] (kimono) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono/motor_control.py to motor_control.cpython-310.pyc\n'}
+[3.152504] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/plotter.py to plotter.cpython-310.pyc\n'}
+[3.154935] (kimono) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono/xbox_control.py to xbox_control.cpython-310.pyc\n'}
+[3.155739] (kyoto) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/plotter.py to plotter.cpython-310.pyc\n'}
+[3.156141] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/motor_control.py to motor_control.cpython-310.pyc\n'}
+[3.157579] (kimono) StdoutLine: {'line': b'running install_data\n'}
+[3.157965] (kimono) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/kimono/share/ament_index\n'}
+[3.158113] (kimono) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/kimono/share/ament_index/resource_index\n'}
+[3.158238] (kimono) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/kimono/share/ament_index/resource_index/packages\n'}
+[3.158433] (kimono) StdoutLine: {'line': b'copying resource/kimono -> /home/juli/teleop_ws/install/kimono/share/ament_index/resource_index/packages\n'}
+[3.158628] (kimono) StdoutLine: {'line': b'copying package.xml -> /home/juli/teleop_ws/install/kimono/share/kimono\n'}
+[3.158878] (kimono) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/kimono/share/kimono/launch\n'}
+[3.159078] (kimono) StdoutLine: {'line': b'copying launch/test_control.launch.py -> /home/juli/teleop_ws/install/kimono/share/kimono/launch\n'}
+[3.159194] (kimono) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/kimono/share/kimono/msg\n'}
+[3.159305] (kimono) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.159557] (kyoto) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/motor_control.py to motor_control.cpython-310.pyc\n'}
+[3.160057] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/docking.py to docking.cpython-310.pyc\n'}
+[3.164094] (kyoto) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/xbox_control.py to xbox_control.cpython-310.pyc\n'}
+[3.164516] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/xbox_control.py to xbox_control.cpython-310.pyc\n'}
+[3.164887] (kimono) StdoutLine: {'line': b'Copying ../../build/kimono/kimono.egg-info to /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono-0.0.0-py3.10.egg-info\n'}
+[3.166286] (kimono) StdoutLine: {'line': b'running install_scripts\n'}
+[3.166574] (kyoto) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/apriltag_detector.py to apriltag_detector.cpython-310.pyc\n'}
+[3.167310] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/apriltag_detector.py to apriltag_detector.cpython-310.pyc\n'}
+[3.168584] (kyoto) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/gui_key_pwm.py to gui_key_pwm.cpython-310.pyc\n'}
+[3.169345] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/gui_backup.py to gui_backup.cpython-310.pyc\n'}
+[3.171118] (kyoto) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/test.py to test.cpython-310.pyc\n'}
+[3.172986] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/xbox_control_backup.py to xbox_control_backup.cpython-310.pyc\n'}
+[3.173310] (kyoto) StdoutLine: {'line': b'running install_data\n'}
+[3.173579] (kyoto) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/kyoto/share/ament_index\n'}
+[3.173881] (kyoto) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/kyoto/share/ament_index/resource_index\n'}
+[3.174029] (kyoto) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/kyoto/share/ament_index/resource_index/packages\n'}
+[3.174152] (kyoto) StdoutLine: {'line': b'copying resource/kyoto -> /home/juli/teleop_ws/install/kyoto/share/ament_index/resource_index/packages\n'}
+[3.174273] (kyoto) StdoutLine: {'line': b'copying package.xml -> /home/juli/teleop_ws/install/kyoto/share/kyoto\n'}
+[3.174394] (kyoto) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/kyoto/share/kyoto/launch\n'}
+[3.174566] (kyoto) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.175601] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/return.py to return.cpython-310.pyc\n'}
+[3.179078] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/gui_key_pwm.py to gui_key_pwm.cpython-310.pyc\n'}
+[3.179804] (kyoto) StdoutLine: {'line': b'Copying ../../build/kyoto/kyoto.egg-info to /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto-0.0.0-py3.10.egg-info\n'}
+[3.181314] (kyoto) StdoutLine: {'line': b'running install_scripts\n'}
+[3.181650] (katana) StdoutLine: {'line': b'byte-compiling /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana/test.py to test.cpython-310.pyc\n'}
+[3.183411] (katana) StdoutLine: {'line': b'running install_data\n'}
+[3.183653] (katana) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/katana/share/ament_index\n'}
+[3.183830] (katana) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/katana/share/ament_index/resource_index\n'}
+[3.184060] (katana) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/katana/share/ament_index/resource_index/packages\n'}
+[3.184185] (katana) StdoutLine: {'line': b'copying resource/katana -> /home/juli/teleop_ws/install/katana/share/ament_index/resource_index/packages\n'}
+[3.184313] (katana) StdoutLine: {'line': b'copying package.xml -> /home/juli/teleop_ws/install/katana/share/katana\n'}
+[3.184527] (katana) StdoutLine: {'line': b'creating /home/juli/teleop_ws/install/katana/share/katana/launch\n'}
+[3.184647] (katana) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.190056] (katana) StdoutLine: {'line': b'Copying ../../build/katana/katana.egg-info to /home/juli/teleop_ws/install/katana/lib/python3.10/site-packages/katana-0.0.0-py3.10.egg-info\n'}
+[3.191345] (katana) StdoutLine: {'line': b'running install_scripts\n'}
+[3.212483] (kimono) StdoutLine: {'line': b'Installing gui script to /home/juli/teleop_ws/install/kimono/lib/kimono\n'}
+[3.212986] (kimono) StdoutLine: {'line': b'Installing motor_control script to /home/juli/teleop_ws/install/kimono/lib/kimono\n'}
+[3.213227] (kimono) StdoutLine: {'line': b'Installing xbox_control script to /home/juli/teleop_ws/install/kimono/lib/kimono\n'}
+[3.213528] (kimono) StdoutLine: {'line': b"writing list of installed files to '/home/juli/teleop_ws/build/kimono/install.log'\n"}
+[3.215349] (-) TimerEvent: {}
+[3.229165] (kyoto) StdoutLine: {'line': b'Installing apriltag_detector script to /home/juli/teleop_ws/install/kyoto/lib/kyoto\n'}
+[3.229556] (kyoto) StdoutLine: {'line': b'Installing gui script to /home/juli/teleop_ws/install/kyoto/lib/kyoto\n'}
+[3.229873] (kyoto) StdoutLine: {'line': b'Installing guikeypwm script to /home/juli/teleop_ws/install/kyoto/lib/kyoto\n'}
+[3.230120] (kyoto) StdoutLine: {'line': b'Installing motor_control script to /home/juli/teleop_ws/install/kyoto/lib/kyoto\n'}
+[3.230364] (kyoto) StdoutLine: {'line': b'Installing plotter script to /home/juli/teleop_ws/install/kyoto/lib/kyoto\n'}
+[3.230485] (kyoto) StdoutLine: {'line': b'Installing velocity script to /home/juli/teleop_ws/install/kyoto/lib/kyoto\n'}
+[3.230599] (kyoto) StdoutLine: {'line': b'Installing xbox_control script to /home/juli/teleop_ws/install/kyoto/lib/kyoto\n'}
+[3.231233] (kyoto) StdoutLine: {'line': b"writing list of installed files to '/home/juli/teleop_ws/build/kyoto/install.log'\n"}
+[3.237478] (katana) StdoutLine: {'line': b'Installing apriltag_detector script to /home/juli/teleop_ws/install/katana/lib/katana\n'}
+[3.237924] (katana) StdoutLine: {'line': b'Installing commands script to /home/juli/teleop_ws/install/katana/lib/katana\n'}
+[3.238169] (katana) StdoutLine: {'line': b'Installing docking script to /home/juli/teleop_ws/install/katana/lib/katana\n'}
+[3.238425] (katana) StdoutLine: {'line': b'Installing gui script to /home/juli/teleop_ws/install/katana/lib/katana\n'}
+[3.238591] (katana) StdoutLine: {'line': b'Installing guikeypwm script to /home/juli/teleop_ws/install/katana/lib/katana\n'}
+[3.238827] (katana) StdoutLine: {'line': b'Installing motor_control script to /home/juli/teleop_ws/install/katana/lib/katana\n'}
+[3.238968] (katana) StdoutLine: {'line': b'Installing plotter script to /home/juli/teleop_ws/install/katana/lib/katana\n'}
+[3.239081] (katana) StdoutLine: {'line': b'Installing return script to /home/juli/teleop_ws/install/katana/lib/katana\n'}
+[3.239194] (katana) StdoutLine: {'line': b'Installing velocity script to /home/juli/teleop_ws/install/katana/lib/katana\n'}
+[3.239330] (katana) StdoutLine: {'line': b'Installing xbox_control script to /home/juli/teleop_ws/install/katana/lib/katana\n'}
+[3.239781] (katana) StdoutLine: {'line': b"writing list of installed files to '/home/juli/teleop_ws/build/katana/install.log'\n"}
+[3.260809] (kimono) CommandEnded: {'returncode': 0}
+[3.295759] (kimono) JobEnded: {'identifier': 'kimono', 'rc': 0}
+[3.298513] (kyoto) CommandEnded: {'returncode': 0}
+[3.310990] (kyoto) JobEnded: {'identifier': 'kyoto', 'rc': 0}
+[3.312272] (katana) CommandEnded: {'returncode': 0}
+[3.315895] (-) TimerEvent: {}
+[3.324651] (katana) JobEnded: {'identifier': 'katana', 'rc': 0}
+[3.325825] (-) EventReactorShutdown: {}

@@ -1,0 +1,28 @@
+running egg_info
+writing ../../build/katana/katana.egg-info/PKG-INFO
+writing dependency_links to ../../build/katana/katana.egg-info/dependency_links.txt
+writing entry points to ../../build/katana/katana.egg-info/entry_points.txt
+writing requirements to ../../build/katana/katana.egg-info/requires.txt
+writing top-level names to ../../build/katana/katana.egg-info/top_level.txt
+reading manifest file '../../build/katana/katana.egg-info/SOURCES.txt'
+writing manifest file '../../build/katana/katana.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/juli/Repos/Self-Driving-RC-Car/teleop_ws/install/katana/lib/python3.10/site-packages/katana-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/katana/katana.egg-info to /home/juli/Repos/Self-Driving-RC-Car/teleop_ws/install/katana/lib/python3.10/site-packages/katana-0.0.0-py3.10.egg-info
+running install_scripts
+Installing apriltag_detector script to /home/juli/Repos/Self-Driving-RC-Car/teleop_ws/install/katana/lib/katana
+Installing commands script to /home/juli/Repos/Self-Driving-RC-Car/teleop_ws/install/katana/lib/katana
+Installing docking script to /home/juli/Repos/Self-Driving-RC-Car/teleop_ws/install/katana/lib/katana
+Installing gui script to /home/juli/Repos/Self-Driving-RC-Car/teleop_ws/install/katana/lib/katana
+Installing guikeypwm script to /home/juli/Repos/Self-Driving-RC-Car/teleop_ws/install/katana/lib/katana
+Installing motor_control script to /home/juli/Repos/Self-Driving-RC-Car/teleop_ws/install/katana/lib/katana
+Installing plotter script to /home/juli/Repos/Self-Driving-RC-Car/teleop_ws/install/katana/lib/katana
+Installing return script to /home/juli/Repos/Self-Driving-RC-Car/teleop_ws/install/katana/lib/katana
+Installing velocity script to /home/juli/Repos/Self-Driving-RC-Car/teleop_ws/install/katana/lib/katana
+Installing xbox_control script to /home/juli/Repos/Self-Driving-RC-Car/teleop_ws/install/katana/lib/katana
+writing list of installed files to '/home/juli/Repos/Self-Driving-RC-Car/teleop_ws/build/katana/install.log'

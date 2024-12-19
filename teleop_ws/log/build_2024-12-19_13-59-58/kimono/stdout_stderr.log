@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/kimono/kimono.egg-info/PKG-INFO
+writing dependency_links to ../../build/kimono/kimono.egg-info/dependency_links.txt
+writing entry points to ../../build/kimono/kimono.egg-info/entry_points.txt
+writing requirements to ../../build/kimono/kimono.egg-info/requires.txt
+writing top-level names to ../../build/kimono/kimono.egg-info/top_level.txt
+reading manifest file '../../build/kimono/kimono.egg-info/SOURCES.txt'
+writing manifest file '../../build/kimono/kimono.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/kimono/kimono.egg-info to /home/juli/teleop_ws/install/kimono/lib/python3.10/site-packages/kimono-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gui script to /home/juli/teleop_ws/install/kimono/lib/kimono
+Installing motor_control script to /home/juli/teleop_ws/install/kimono/lib/kimono
+Installing xbox_control script to /home/juli/teleop_ws/install/kimono/lib/kimono
+writing list of installed files to '/home/juli/teleop_ws/build/kimono/install.log'

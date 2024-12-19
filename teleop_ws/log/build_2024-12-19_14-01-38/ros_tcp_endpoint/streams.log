@@ -1,0 +1,72 @@
+[2.984s] Invoking command in '/home/juli/teleop_ws/src/ROS-TCP-Endpoint': PYTHONPATH=/home/juli/teleop_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/juli/teleop_ws/build/ros_tcp_endpoint/build install --record /home/juli/teleop_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data
+[3.193s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.193s]   warnings.warn(
+[3.201s] running egg_info
+[3.202s] creating ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info
+[3.202s] writing ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/PKG-INFO
+[3.203s] writing dependency_links to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/dependency_links.txt
+[3.203s] writing entry points to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/entry_points.txt
+[3.203s] writing requirements to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/requires.txt
+[3.203s] writing top-level names to ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/top_level.txt
+[3.203s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[3.205s] reading manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[3.205s] adding license file 'LICENSE'
+[3.206s] writing manifest file '../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info/SOURCES.txt'
+[3.206s] running build
+[3.206s] running build_py
+[3.206s] creating /home/juli/teleop_ws/build/ros_tcp_endpoint/build
+[3.206s] creating /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib
+[3.206s] creating /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.207s] copying ros_tcp_endpoint/__init__.py -> /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.207s] copying ros_tcp_endpoint/client.py -> /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.207s] copying ros_tcp_endpoint/publisher.py -> /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.207s] copying ros_tcp_endpoint/tcp_sender.py -> /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.207s] copying ros_tcp_endpoint/default_server_endpoint.py -> /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.208s] copying ros_tcp_endpoint/exceptions.py -> /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.208s] copying ros_tcp_endpoint/subscriber.py -> /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.208s] copying ros_tcp_endpoint/unity_service.py -> /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.208s] copying ros_tcp_endpoint/thread_pauser.py -> /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.208s] copying ros_tcp_endpoint/server.py -> /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.208s] copying ros_tcp_endpoint/service.py -> /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.208s] copying ros_tcp_endpoint/communication.py -> /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint
+[3.209s] running install
+[3.209s] running install_lib
+[3.209s] creating /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[3.209s] copying /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/__init__.py -> /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[3.209s] copying /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/client.py -> /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[3.210s] copying /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/publisher.py -> /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[3.210s] copying /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/tcp_sender.py -> /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[3.210s] copying /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/default_server_endpoint.py -> /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[3.210s] copying /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/exceptions.py -> /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[3.210s] copying /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/subscriber.py -> /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[3.210s] copying /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/unity_service.py -> /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[3.210s] copying /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/thread_pauser.py -> /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[3.211s] copying /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/server.py -> /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[3.211s] copying /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/service.py -> /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[3.211s] copying /home/juli/teleop_ws/build/ros_tcp_endpoint/build/lib/ros_tcp_endpoint/communication.py -> /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint
+[3.211s] byte-compiling /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/__init__.py to __init__.cpython-310.pyc
+[3.211s] byte-compiling /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/client.py to client.cpython-310.pyc
+[3.212s] byte-compiling /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/publisher.py to publisher.cpython-310.pyc
+[3.212s] byte-compiling /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/tcp_sender.py to tcp_sender.cpython-310.pyc
+[3.213s] byte-compiling /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/default_server_endpoint.py to default_server_endpoint.cpython-310.pyc
+[3.213s] byte-compiling /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/exceptions.py to exceptions.cpython-310.pyc
+[3.213s] byte-compiling /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/subscriber.py to subscriber.cpython-310.pyc
+[3.213s] byte-compiling /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/unity_service.py to unity_service.cpython-310.pyc
+[3.214s] byte-compiling /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/thread_pauser.py to thread_pauser.cpython-310.pyc
+[3.214s] byte-compiling /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/server.py to server.cpython-310.pyc
+[3.216s] byte-compiling /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/service.py to service.cpython-310.pyc
+[3.216s] byte-compiling /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint/communication.py to communication.cpython-310.pyc
+[3.216s] running install_data
+[3.216s] creating /home/juli/teleop_ws/install/ros_tcp_endpoint/share/ament_index
+[3.217s] creating /home/juli/teleop_ws/install/ros_tcp_endpoint/share/ament_index/resource_index
+[3.217s] creating /home/juli/teleop_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[3.217s] copying resource/ros_tcp_endpoint -> /home/juli/teleop_ws/install/ros_tcp_endpoint/share/ament_index/resource_index/packages
+[3.217s] copying package.xml -> /home/juli/teleop_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint
+[3.217s] creating /home/juli/teleop_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[3.217s] copying launch/endpoint.py -> /home/juli/teleop_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/launch
+[3.217s] running install_egg_info
+[3.219s] Copying ../../build/ros_tcp_endpoint/ros_tcp_endpoint.egg-info to /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages/ros_tcp_endpoint-0.0.1-py3.10.egg-info
+[3.219s] running install_scripts
+[3.244s] Installing default_server_endpoint script to /home/juli/teleop_ws/install/ros_tcp_endpoint/lib/ros_tcp_endpoint
+[3.244s] writing list of installed files to '/home/juli/teleop_ws/build/ros_tcp_endpoint/install.log'
+[3.323s] Invoked command in '/home/juli/teleop_ws/src/ROS-TCP-Endpoint' returned '0': PYTHONPATH=/home/juli/teleop_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/ros_tcp_endpoint/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ros_tcp_endpoint build --build-base /home/juli/teleop_ws/build/ros_tcp_endpoint/build install --record /home/juli/teleop_ws/build/ros_tcp_endpoint/install.log --install-scripts $base/lib/ros_tcp_endpoint --single-version-externally-managed install_data

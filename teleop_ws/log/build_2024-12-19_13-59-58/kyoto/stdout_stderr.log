@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/kyoto/kyoto.egg-info/PKG-INFO
+writing dependency_links to ../../build/kyoto/kyoto.egg-info/dependency_links.txt
+writing entry points to ../../build/kyoto/kyoto.egg-info/entry_points.txt
+writing requirements to ../../build/kyoto/kyoto.egg-info/requires.txt
+writing top-level names to ../../build/kyoto/kyoto.egg-info/top_level.txt
+reading manifest file '../../build/kyoto/kyoto.egg-info/SOURCES.txt'
+writing manifest file '../../build/kyoto/kyoto.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/kyoto/kyoto.egg-info to /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto-0.0.0-py3.10.egg-info
+running install_scripts
+Installing apriltag_detector script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+Installing gui script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+Installing guikeypwm script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+Installing motor_control script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+Installing plotter script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+Installing velocity script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+Installing xbox_control script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+writing list of installed files to '/home/juli/teleop_ws/build/kyoto/install.log'

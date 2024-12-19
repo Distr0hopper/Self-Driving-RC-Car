@@ -1,0 +1,27 @@
+[3.006s] Invoking command in '/home/juli/teleop_ws/src/kyoto': PYTHONPATH=/home/juli/teleop_ws/build/kyoto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kyoto build --build-base /home/juli/teleop_ws/build/kyoto/build install --record /home/juli/teleop_ws/build/kyoto/install.log --single-version-externally-managed install_data
+[3.235s] running egg_info
+[3.235s] writing ../../build/kyoto/kyoto.egg-info/PKG-INFO
+[3.235s] writing dependency_links to ../../build/kyoto/kyoto.egg-info/dependency_links.txt
+[3.235s] writing entry points to ../../build/kyoto/kyoto.egg-info/entry_points.txt
+[3.236s] writing requirements to ../../build/kyoto/kyoto.egg-info/requires.txt
+[3.236s] writing top-level names to ../../build/kyoto/kyoto.egg-info/top_level.txt
+[3.238s] reading manifest file '../../build/kyoto/kyoto.egg-info/SOURCES.txt'
+[3.239s] writing manifest file '../../build/kyoto/kyoto.egg-info/SOURCES.txt'
+[3.239s] running build
+[3.239s] running build_py
+[3.239s] running install
+[3.240s] running install_lib
+[3.241s] running install_data
+[3.241s] running install_egg_info
+[3.244s] removing '/home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto-0.0.0-py3.10.egg-info' (and everything under it)
+[3.244s] Copying ../../build/kyoto/kyoto.egg-info to /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto-0.0.0-py3.10.egg-info
+[3.245s] running install_scripts
+[3.281s] Installing apriltag_detector script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.282s] Installing gui script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.282s] Installing guikeypwm script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.282s] Installing motor_control script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.282s] Installing plotter script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.282s] Installing velocity script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.287s] Installing xbox_control script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.287s] writing list of installed files to '/home/juli/teleop_ws/build/kyoto/install.log'
+[3.341s] Invoked command in '/home/juli/teleop_ws/src/kyoto' returned '0': PYTHONPATH=/home/juli/teleop_ws/build/kyoto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kyoto build --build-base /home/juli/teleop_ws/build/kyoto/build install --record /home/juli/teleop_ws/build/kyoto/install.log --single-version-externally-managed install_data

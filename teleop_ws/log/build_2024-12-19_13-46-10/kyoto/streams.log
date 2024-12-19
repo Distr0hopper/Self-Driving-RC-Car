@@ -1,0 +1,71 @@
+[2.536s] Invoking command in '/home/juli/teleop_ws/src/kyoto': PYTHONPATH=/home/juli/teleop_ws/build/kyoto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kyoto build --build-base /home/juli/teleop_ws/build/kyoto/build install --record /home/juli/teleop_ws/build/kyoto/install.log --single-version-externally-managed install_data
+[3.090s] running egg_info
+[3.092s] creating ../../build/kyoto/kyoto.egg-info
+[3.092s] writing ../../build/kyoto/kyoto.egg-info/PKG-INFO
+[3.092s] writing dependency_links to ../../build/kyoto/kyoto.egg-info/dependency_links.txt
+[3.093s] writing entry points to ../../build/kyoto/kyoto.egg-info/entry_points.txt
+[3.093s] writing requirements to ../../build/kyoto/kyoto.egg-info/requires.txt
+[3.093s] writing top-level names to ../../build/kyoto/kyoto.egg-info/top_level.txt
+[3.094s] writing manifest file '../../build/kyoto/kyoto.egg-info/SOURCES.txt'
+[3.102s] reading manifest file '../../build/kyoto/kyoto.egg-info/SOURCES.txt'
+[3.102s] writing manifest file '../../build/kyoto/kyoto.egg-info/SOURCES.txt'
+[3.103s] running build
+[3.103s] running build_py
+[3.103s] creating /home/juli/teleop_ws/build/kyoto/build
+[3.103s] creating /home/juli/teleop_ws/build/kyoto/build/lib
+[3.105s] creating /home/juli/teleop_ws/build/kyoto/build/lib/kyoto
+[3.105s] copying kyoto/velocity.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto
+[3.105s] copying kyoto/__init__.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto
+[3.105s] copying kyoto/motor_control_backup2.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto
+[3.106s] copying kyoto/motor_control_workingbackup.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto
+[3.106s] copying kyoto/gui.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto
+[3.108s] copying kyoto/plotter.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto
+[3.108s] copying kyoto/motor_control.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto
+[3.109s] copying kyoto/xbox_control.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto
+[3.109s] copying kyoto/apriltag_detector.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto
+[3.109s] copying kyoto/gui_key_pwm.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto
+[3.109s] copying kyoto/test.py -> /home/juli/teleop_ws/build/kyoto/build/lib/kyoto
+[3.110s] running install
+[3.110s] running install_lib
+[3.111s] creating /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto
+[3.111s] copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/velocity.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto
+[3.111s] copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/__init__.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto
+[3.112s] copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/motor_control_backup2.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto
+[3.112s] copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/motor_control_workingbackup.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto
+[3.112s] copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/gui.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto
+[3.112s] copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/plotter.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto
+[3.112s] copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/motor_control.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto
+[3.112s] copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/xbox_control.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto
+[3.113s] copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/apriltag_detector.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto
+[3.113s] copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/gui_key_pwm.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto
+[3.113s] copying /home/juli/teleop_ws/build/kyoto/build/lib/kyoto/test.py -> /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto
+[3.114s] byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/velocity.py to velocity.cpython-310.pyc
+[3.114s] byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/__init__.py to __init__.cpython-310.pyc
+[3.114s] byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/motor_control_backup2.py to motor_control_backup2.cpython-310.pyc
+[3.117s] byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/motor_control_workingbackup.py to motor_control_workingbackup.cpython-310.pyc
+[3.120s] byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/gui.py to gui.cpython-310.pyc
+[3.124s] byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/plotter.py to plotter.cpython-310.pyc
+[3.128s] byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/motor_control.py to motor_control.cpython-310.pyc
+[3.132s] byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/xbox_control.py to xbox_control.cpython-310.pyc
+[3.135s] byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/apriltag_detector.py to apriltag_detector.cpython-310.pyc
+[3.137s] byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/gui_key_pwm.py to gui_key_pwm.cpython-310.pyc
+[3.139s] byte-compiling /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto/test.py to test.cpython-310.pyc
+[3.141s] running install_data
+[3.142s] creating /home/juli/teleop_ws/install/kyoto/share/ament_index
+[3.142s] creating /home/juli/teleop_ws/install/kyoto/share/ament_index/resource_index
+[3.142s] creating /home/juli/teleop_ws/install/kyoto/share/ament_index/resource_index/packages
+[3.142s] copying resource/kyoto -> /home/juli/teleop_ws/install/kyoto/share/ament_index/resource_index/packages
+[3.142s] copying package.xml -> /home/juli/teleop_ws/install/kyoto/share/kyoto
+[3.142s] creating /home/juli/teleop_ws/install/kyoto/share/kyoto/launch
+[3.143s] running install_egg_info
+[3.148s] Copying ../../build/kyoto/kyoto.egg-info to /home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages/kyoto-0.0.0-py3.10.egg-info
+[3.149s] running install_scripts
+[3.197s] Installing apriltag_detector script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.198s] Installing gui script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.198s] Installing guikeypwm script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.198s] Installing motor_control script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.198s] Installing plotter script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.198s] Installing velocity script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.199s] Installing xbox_control script to /home/juli/teleop_ws/install/kyoto/lib/kyoto
+[3.199s] writing list of installed files to '/home/juli/teleop_ws/build/kyoto/install.log'
+[3.267s] Invoked command in '/home/juli/teleop_ws/src/kyoto' returned '0': PYTHONPATH=/home/juli/teleop_ws/build/kyoto/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juli/teleop_ws/install/kyoto/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kyoto build --build-base /home/juli/teleop_ws/build/kyoto/build install --record /home/juli/teleop_ws/build/kyoto/install.log --single-version-externally-managed install_data
